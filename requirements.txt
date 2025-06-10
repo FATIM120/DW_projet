@@ -1,0 +1,16 @@
+# Fichier requirements.txt pour le projet Data Warehouse
+pandas
+numpy
+transformers
+datasets
+nltk
+spacy
+torch
+psycopg2
+beautifulsoup4
+playwright
+requests
+sqlalchemy
+apache-airflow==2.8.1
+dbt-core==1.8.7
+psycopg2

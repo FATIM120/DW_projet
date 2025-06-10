@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: public
+    database: bank_reviews
+    schema: public
+    tables:
+      - name: avis_bancaires
+      - name: stg_avis_bancaires_enriched
+      - name: stg_avis_bancaires_transformed

@@ -1,0 +1,21 @@
+projet_dbt:
+  outputs:
+    dev:
+      dbname: bank_reviews
+      host: localhost
+      pass: fatim
+      port: 5432
+      schema: public
+      threads: 4
+      type: postgres
+      user: fatim
+    dev_dh:
+      dbname: bank_reviews
+      host: localhost
+      pass: fatim
+      port: 5432
+      schema: star
+      threads: 1
+      type: postgres
+      user: fatim
+  target: dev_dh
